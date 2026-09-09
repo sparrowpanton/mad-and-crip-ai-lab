@@ -63,9 +63,9 @@ a calendar cannot do. That is what makes it care.
 | Vespers | commute home | Chit-chat. What needs finishing. What's for dinner. |
 | Compline | evening | Tomorrow's shape. Night meds. Go to sleep on time. |
 
-The 3pm bell is the load-bearing one for this particular brain: executive
-function is lowest, the morning dose is wearing off, and it is the hour
-things quietly do not happen.
+The 3pm bell is the load-bearing one for this particular brain: the
+morning dose is wearing off, the day has used up whatever it had, and it is
+the hour things quietly do not happen.
 
 ## Day types
 
