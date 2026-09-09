@@ -47,7 +47,7 @@ bells:
     asks: [coffee, pee, second_dose, errands, person]
     holds: [second_dose, errands, person]
     note: >
-      This is the bell that saves the day. Executive function is lowest here.
+      This is the bell that saves the day. This is the hour things quietly do not happen.
       Ask every item; do not skip any because the morning went well.
 
   - name: vespers

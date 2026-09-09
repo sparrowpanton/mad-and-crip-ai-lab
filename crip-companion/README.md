@@ -1,6 +1,6 @@
 # The Crip Companion
 
-*A Daily Office for executive dysfunction.*
+*A Daily Office for care, tasks, and remembering to pee.*
 
 ## What this is
 
@@ -13,7 +13,7 @@ AuDHD problem. The problem is:
 - You can see the calendar, but you cannot feel time moving toward the thing on it.
 - You are dehydrated, and you know it, and knowing does not make you get up.
 
-What executive dysfunction needs is not motivation and not reminders. It
+What a brain like this needs is not motivation and not reminders. It
 needs a bell.
 
 ## The frame: the Daily Office

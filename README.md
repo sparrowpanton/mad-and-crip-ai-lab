@@ -38,7 +38,7 @@ whole lens.
 Native to this repo:
 
 - **[crip-companion](crip-companion/)** — a Daily Office for executive
-  dysfunction. Seven bells a day, rung by an AI companion on Telegram, with a
+  tasks, and remembering to pee. Seven bells a day, rung by an AI companion on Telegram, with a
   memory that holds what you said "not yet" to. Field-tested across a clinical
   placement semester, fall 2026. *First Lab project, started 2026-09-09.*
 
