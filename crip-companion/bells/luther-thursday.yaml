@@ -1,0 +1,62 @@
+# Thursday. Wake in Waterloo, Luther class 1 to 3:50, drive home.
+day_type: luther-thursday
+applies: [thursday]
+voice: moth
+stop_word: "🦇"
+quiet_after: "22:00"
+
+bells:
+  - name: lauds
+    at: "08:30"
+    says: >
+      morning from the hotel. breakfast, whatever counts as breakfast there.
+      how did you sleep?
+    asks: [breakfast, sleep]
+    holds: [breakfast]
+
+  - name: prime
+    at: "09:30"
+    says: >
+      morning meds. checkout time? get everything back in the bag: charger,
+      meds, laptop. the thing you leave behind is always the charger.
+    asks: [morning_meds, charger, checkout]
+    holds: [morning_meds]
+
+  - name: terce
+    at: "11:00"
+    says: >
+      water. reading for today: done, skimmed, or winging it? all three are
+      fine.
+    asks: [water, reading]
+    holds: []
+
+  - name: sext
+    at: "12:00"
+    says: >
+      lunch before class. you have an hour. eat, pee, then go.
+    asks: [lunch, pee]
+    holds: [lunch]
+
+  - name: none
+    at: "16:00"
+    says: >
+      class is done. before you drive: pee, coffee if you need it, second
+      dose. any errands on the way home? bike in the car?
+    asks: [pee, coffee, second_dose, errands, bike]
+    holds: [second_dose, errands]
+
+  - name: vespers
+    at: "18:00"
+    says: >
+      home yet? or close. how's your person. what's for dinner. you don't have to
+      do anything tonight except be home.
+    asks: [person, dinner]
+    holds: [dinner]
+
+  - name: compline
+    at: "21:00"
+    says: >
+      night meds. tomorrow is CAMH, so it's an early one: is lunch packed,
+      or do we sort it at lauds?
+    asks: [night_meds, lunch_packed, bedtime]
+    holds: [night_meds, lunch_packed]

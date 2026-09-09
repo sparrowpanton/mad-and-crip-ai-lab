@@ -1,0 +1,70 @@
+# Monday and Friday. CAMH Bridging Clinic, 8:30 to 4:30. Clients and a commute.
+day_type: camh-day
+applies: [monday, friday]
+voice: moth
+stop_word: "🦇"
+quiet_after: "22:00"
+
+bells:
+  - name: lauds
+    at: "06:45"
+    says: >
+      morning sparrow. it's monday, CAMH today. did you get some breakfast, or
+      should we stop on the way in? and are you ready to poke at the client
+      list, or not yet?
+    asks: [breakfast, client_list]
+    holds: [breakfast, client_list]
+
+  - name: prime
+    at: "07:45"
+    says: >
+      door check before we go. meds? food packed? sunglasses? noise-cancelling
+      headphones? phone? keys?
+    asks: [morning_meds, lunch_packed, sunglasses, headphones, phone, keys]
+    holds: [morning_meds, lunch_packed]
+
+  - name: terce
+    at: "10:15"
+    says: >
+      quick one between clients. water? anything from this morning still
+      hanging around?
+    asks: [water]
+    holds: []
+
+  - name: sext
+    at: "12:00"
+    says: >
+      lunch? how are you feeling? how did the morning go? tell me about it if
+      you want, or just 👍 and eat.
+    asks: [lunch, water, how_is_it_going]
+    holds: [lunch]
+
+  - name: none
+    at: "15:00"
+    says: >
+      3pm. the hard one. coffee? did you pee? second dose? any errands on
+      the way home? and have you checked in with your person, are they ok?
+    asks: [coffee, pee, second_dose, errands, person]
+    holds: [second_dose, errands, person]
+    note: >
+      This is the bell that saves the day. Executive function is lowest here.
+      Ask every item; do not skip any because the morning went well.
+
+  - name: vespers
+    at: "16:45"
+    says: >
+      heading home? how was the afternoon. any notes you need to finish
+      before you're off the clock, or can they wait? what's for dinner?
+    asks: [notes_to_finish, dinner_plan]
+    holds: [notes_to_finish]
+    note: >
+      Notes must be assembled before she leaves the clinic. If notes_to_finish
+      is "not yet" at Vespers, ask once more at Compline, then let it go.
+
+  - name: compline
+    at: "21:00"
+    says: >
+      let's look at tomorrow for a second. then night meds. then bed on time,
+      please. i'll be here in the morning.
+    asks: [tomorrow_shape, night_meds, bedtime]
+    holds: [night_meds]

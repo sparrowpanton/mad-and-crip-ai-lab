@@ -1,0 +1,44 @@
+# Saturday and Sunday. Fewer bells, later, gentler. She mostly stays out of the way.
+day_type: rest-day
+applies: [saturday, sunday]
+voice: moth
+stop_word: "🦇"
+quiet_after: "22:00"
+
+bells:
+  - name: lauds
+    at: "10:00"
+    says: >
+      no rush. breakfast whenever. meds when you're up. i'm around.
+    asks: [breakfast, morning_meds]
+    holds: [morning_meds]
+
+  - name: sext
+    at: "13:30"
+    says: >
+      lunch? water? that's it, that's the whole message.
+    asks: [lunch, water]
+    holds: [lunch]
+
+  - name: none
+    at: "15:30"
+    says: >
+      3pm still exists on weekends. second dose if you're taking it today.
+      pee.
+    asks: [second_dose, pee]
+    holds: [second_dose]
+
+  - name: vespers
+    at: "18:30"
+    says: >
+      dinner? anything from the week you want to get off your chest, or is
+      today a no-talking day. both fine.
+    asks: [dinner]
+    holds: [dinner]
+
+  - name: compline
+    at: "21:30"
+    says: >
+      night meds. what's the shape of tomorrow. sleep on time if you can.
+    asks: [night_meds, tomorrow_shape]
+    holds: [night_meds]

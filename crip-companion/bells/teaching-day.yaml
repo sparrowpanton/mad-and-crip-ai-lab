@@ -1,0 +1,62 @@
+# Tuesday. Emmanuel, 5 to 8pm, seventy students, four TAs. The morning is prep and admin.
+day_type: teaching-day
+applies: [tuesday]
+voice: moth
+stop_word: "🦇"
+quiet_after: "23:00"
+
+bells:
+  - name: lauds
+    at: "08:00"
+    says: >
+      morning. teaching tonight, so the day is yours until late afternoon.
+      breakfast? and what's the one thing that has to happen before class?
+    asks: [breakfast, one_thing]
+    holds: [breakfast, one_thing]
+
+  - name: prime
+    at: "09:00"
+    says: >
+      morning meds? water on the desk? ok, go.
+    asks: [morning_meds, water]
+    holds: [morning_meds]
+
+  - name: terce
+    at: "10:30"
+    says: >
+      still here. anything from earlier you said not yet to?
+    asks: []
+    holds: []
+
+  - name: sext
+    at: "12:30"
+    says: >
+      lunch. actual food, not just coffee. how's the one thing going?
+    asks: [lunch, one_thing]
+    holds: [lunch]
+
+  - name: none
+    at: "15:00"
+    says: >
+      3pm. coffee? pee? second dose? slides ready or good enough? eat
+      something before class or you'll be running on fumes by 7.
+    asks: [coffee, pee, second_dose, slides, pre_class_food]
+    holds: [second_dose, pre_class_food]
+
+  - name: vespers
+    at: "16:15"
+    says: >
+      leaving for class? headphones for the commute, water bottle, laptop,
+      charger. you've got this. seventy people is a lot; you only have to
+      talk to one room.
+    asks: [headphones, water, laptop, charger]
+    holds: []
+
+  - name: compline
+    at: "21:15"
+    says: >
+      class is done. you're allowed to be crispy. night meds, then nothing
+      hard. tomorrow is waterloo, so pack the overnight bag tonight if you
+      can; if not, i'll ask again at lauds.
+    asks: [night_meds, overnight_bag, bedtime]
+    holds: [night_meds, overnight_bag]

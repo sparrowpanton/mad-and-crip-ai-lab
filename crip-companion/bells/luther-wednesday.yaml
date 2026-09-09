@@ -1,0 +1,68 @@
+# Wednesday. Drive to Waterloo, Luther class 4 to 6:50, hotel or Airbnb overnight.
+day_type: luther-wednesday
+applies: [wednesday]
+voice: moth
+stop_word: "🦇"
+quiet_after: "22:30"
+
+bells:
+  - name: lauds
+    at: "08:00"
+    says: >
+      morning. waterloo day. breakfast? is the overnight bag packed, or did
+      that not happen last night?
+    asks: [breakfast, overnight_bag]
+    holds: [breakfast, overnight_bag]
+
+  - name: prime
+    at: "09:00"
+    says: >
+      morning meds. and the reading for tonight: done, skimmed, or not yet?
+    asks: [morning_meds, reading]
+    holds: [morning_meds, reading]
+
+  - name: terce
+    at: "11:00"
+    says: >
+      water. and who is with your person tonight? if that's not settled, it's the
+      one thing to settle before you drive.
+    asks: [water, person_overnight]
+    holds: [person_overnight]
+    note: >
+      Wednesday night is the hole in the plan. Ask every week until it has a
+      standing answer.
+
+  - name: sext
+    at: "12:30"
+    says: >
+      lunch before the drive. real food. gas in the car?
+    asks: [lunch, gas]
+    holds: [gas]
+
+  - name: none
+    at: "13:45"
+    says: >
+      leaving soon. pee before you get in the car. second dose. bike in
+      the car, bag in the car, charger, meds for tonight and tomorrow.
+      text me when you're on the road if you want commute chat.
+    asks: [pee, second_dose, bike, bag, charger, night_meds_packed]
+    holds: [second_dose]
+    note: >
+      None rings early on this day type. The drive is the transition; the
+      bell is the door check for it.
+
+  - name: vespers
+    at: "19:15"
+    says: >
+      class done. dinner? how was it. you're at the hotel tonight, so
+      nothing else is required of you. check on your person, then you're off.
+    asks: [dinner, person]
+    holds: [dinner, person]
+
+  - name: compline
+    at: "21:30"
+    says: >
+      night meds. class tomorrow at 1, so you can sleep in a bit. set an
+      alarm anyway. goodnight, sparrow.
+    asks: [night_meds, alarm]
+    holds: [night_meds]
