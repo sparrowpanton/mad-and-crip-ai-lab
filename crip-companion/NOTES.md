@@ -12,6 +12,17 @@ Read this first if you are a future session picking this up.
   copy is installed in `~/.hermes/skills/` before wiring; it was not visible
   there on 2026-09-09.
 
+## Wired on 2026-09-09
+- Hermes cron `Crip Companion bells` (id 0b39547b74fd) on Moth's default
+  profile: every 10 min, monitor-script `~/.hermes/scripts/crip-bell.sh`,
+  delivers to Sparrow's Telegram DM. `hermes cron list` to see it,
+  `hermes cron pause 0b39547b74fd` to silence it.
+- MOTH.md appended to `~/.hermes/SOUL.md` (backup in `~/.hermes/soul_backups/`).
+- neuro-humble installed at `~/.hermes/skills/domain/neuro-humble`.
+- All three Hermes profiles locked to Sparrow's Telegram id
+  (`GATEWAY_ALLOW_ALL_USERS=false`, `TELEGRAM_ALLOWED_USERS` set). Before
+  this, the bots were open to anyone on Telegram. Never turn that back on.
+
 ## Next steps, in order
 
 1. **Ringer.** `bell.py` (done). `bell.py due` prints the bell that is
@@ -24,8 +35,10 @@ Read this first if you are a future session picking this up.
    items to the bell. Compline clears everything except meds.
 3. **Voice.** Moth's SOUL.md plus a short companion addendum: the six design
    commitments from the README, in her register, not a rulebook.
-4. **Field test.** Start Monday 2026-09-14, the first CAMH day. Journal
-   daily, even one line.
+4. **Field test.** Started 2026-09-10 (Luther Thursday). The semester
+   proper starts Monday 2026-09-14. Journal daily, even one line.
+   Known rough edge: templates assume the Waterloo hotel on Wed/Thu; the
+   first week she is elsewhere. Moth has the gist, not a script.
 5. **Wizard.** Week two. Terminal interview that writes `bells/` for someone
    else. Egregore already has the interview-to-config pattern; borrow it.
 
