@@ -98,8 +98,8 @@ different brain and a completely different life.
 
 ## Status
 
-- **2026-09-09** — idea, late evening. Named. Framed as the Daily Office.
-- **2026-09-10** — scoped. Repo, templates, journal started. Not yet wired to Telegram.
+- **2026-09-08, late** — idea. Named. Framed as the Daily Office.
+- **2026-09-09** — scoped. Repo, templates, journal, ringer. Not yet wired to Telegram.
 
 First we build the thing that helps one person survive one semester. Then we
 make it portable. Research journal: [`JOURNAL.md`](JOURNAL.md).

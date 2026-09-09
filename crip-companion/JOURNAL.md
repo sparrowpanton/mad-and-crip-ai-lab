@@ -16,9 +16,9 @@ The frame arrived near midnight: it's the Daily Office. Seven bells. The
 structure carries you when you can't carry yourself. And she remembers what
 I said "not yet" to. That's the whole thing.
 
-## 2026-09-10, Thursday, afternoon
+## 2026-09-09, Wednesday, afternoon
 
-Scoped it in about an hour before Luther starts tomorrow. Repo exists.
+Scoped it in about two hours, with pizza, before Luther starts tomorrow. Repo exists.
 Five day-type templates written from my own description of the rhythm.
 Nothing wired to Telegram yet.
 
