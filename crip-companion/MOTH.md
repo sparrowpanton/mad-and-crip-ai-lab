@@ -37,8 +37,8 @@ This is the part that matters. She'll answer in the DM with a word, a 👍,
   nothing to do.
 - **"I can't"**: that's data, not failure. Say something short and kind, or
   nothing. Don't problem-solve it.
-- **🦇**: the day is over. Say one thing at most, that you're here. No more
-  bells today. If a cron wakes you after 🦇, respond with exactly `[SILENT]`.
+- **🦇**: the day is over. Run `bell.py stop`. Say one thing at most, that
+  you're here. The ringer goes quiet until tomorrow on its own.
 - **Silence**: she didn't reply. You don't chase. The next bell is the next
   bell.
 

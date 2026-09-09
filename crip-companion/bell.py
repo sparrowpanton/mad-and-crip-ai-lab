@@ -10,6 +10,7 @@ One script, three jobs:
   bell.py hold ITEM    Sparrow said "not yet" to ITEM. Remember it.
   bell.py done ITEM    ITEM happened. Forget it.
   bell.py held         list what is being held.
+  bell.py stop         Sparrow said 🦇. No more bells today.
 
 State lives in held.json next to this file (gitignored). Templates live in
 bells/*.yaml. No LLM in here; this is the clock and the memory. The voice is
@@ -83,6 +84,9 @@ def cmd_due():
         print(f"{today} {tpl['day_type']}: no bell due (before lauds or after quiet hours)")
         return
     state = read_held()
+    if state.get("stopped") == today:
+        print(f"{today} {tpl['day_type']}: day stopped (🦇). no more bells today.")
+        return
     held_today = [h for h in state["items"] if h["day"] == today]
     lines = [
         f"BELL {bell['name'].upper()} · {today} · {tpl['day_type']} · rings at {bell['at']}",
@@ -126,6 +130,13 @@ def cmd_done(item):
     print(f"done {item}" if len(state["items"]) < before else f"{item} was not held")
 
 
+def cmd_stop():
+    state = read_held()
+    state["stopped"] = datetime.date.today().isoformat()
+    write_held(state)
+    print("stopped for today")
+
+
 def cmd_held():
     state = read_held()
     if not state["items"]:
@@ -144,6 +155,8 @@ if __name__ == "__main__":
         cmd_done(args[1])
     elif args[0] == "held":
         cmd_held()
+    elif args[0] == "stop":
+        cmd_stop()
     else:
         print(__doc__)
         sys.exit(1)
