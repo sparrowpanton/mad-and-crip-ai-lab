@@ -26,7 +26,7 @@ point. Meaningful AI research should not require a GPU throne, and research
 about us should be done by us.
 
 The thesis underneath everything here: **formation, not information.**
-We train the model's posture, not just its knowledge, because the difference
+We work on the model's posture, not just its knowledge, because the difference
 between information and formation is the difference between a textbook and
 a therapist.
 
@@ -39,7 +39,7 @@ Native to this repo:
 
 - **[crip-companion](crip-companion/)** — a Daily Office for care, tasks,
   and remembering to pee. Seven bells a day, rung by an AI companion on
-  Telegram, with a memory that holds what you said "not yet" to. Field-tested across a clinical
+  Telegram, with a memory that holds what you said "not yet" to. Being field-tested across a clinical
   placement semester, fall 2026. *First Lab project, started 2026-09-09.*
 
 Living in their own repos, gathered here:
